@@ -2,7 +2,7 @@
 /** @jsxFrag React.Fragment */
 import React, { useEffect, useMemo, useState } from "react";
 import { motion, useCycle, useReducedMotion, useTransform, Variants } from "framer-motion";
-import { useFollowCursor } from "../hooks/useFollowCursor";
+import { useFollowCursor } from "./hooks/useFollowCursor";
 
 const IS_DEV =
   typeof globalThis !== "undefined" &&
